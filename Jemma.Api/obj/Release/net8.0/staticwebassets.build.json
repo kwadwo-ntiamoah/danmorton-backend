@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kiVYWEtxHu+zUYoEqkK+QI3Pm27wNod+iylN3jDZCiM=",
+  "Source": "Jemma.Api",
+  "BasePath": "_content/Jemma.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

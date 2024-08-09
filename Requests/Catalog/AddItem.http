@@ -1,0 +1,12 @@
+@host=http://localhost:5159
+
+POST {{host}}/api/catalog/items
+Content-Type: application/json
+
+{
+    "items": [
+        { "name": "Shirt", "amount": 5.0, "imagePath": "https://res.cloudinary.com/jojo-media/image/upload/v1696897786/shipeazi/move_items/tp4sf49qgtndrivf5sco.jpg" },
+        { "name": "Blouse", "amount": 3.0, "imagePath": "https://res.cloudinary.com/jojo-media/image/upload/v1696897820/shipeazi/move_items/wcqxf8qbqunwek4psjvq.jpg" }
+    ]
+}
+

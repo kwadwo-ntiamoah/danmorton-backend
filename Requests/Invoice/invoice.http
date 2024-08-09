@@ -1,0 +1,24 @@
+@host=http://localhost:5159
+
+POST {{host}}/api/invoice?invoiceId=
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOlsiQWRtaW5pc3RyYXRvciIsIlN0YWZmIl0sInN1YiI6ImFkbWluQGFkbWluLmNvbSIsInNpZCI6IjNhYzU5NDRiLTY2YzctNDZiMS1iOTIyLTdiZTAwNGFmNzVhNSIsImp0aSI6ImE2MmIyOTAwLWY3MWYtNGU3OS1hYjQzLTNkMjI4YWM4OTIyZSIsImVtYWlsIjoiYWRtaW5AYWRtaW4uY29tIiwiZXhwIjoxNzIxNTY2NjE2LCJpc3MiOiJKZW1tYSIsImF1ZCI6IkplbW1hIn0.fkHmeqe7pfdCi9-dE_O7NnpwXuvFoP_Z3Ot1Aji1eoA
+
+{
+    "discount": 50,
+    "serviceId": "a9ef39ff-2a3e-4edb-a745-0dc9e1adddcd",
+    "name": "Emmanuel Thompson",
+    "phone": "233540609437",
+    "email": "dev_jojo@outlook.com",
+    "dueDate": "2024-12-12",
+    "invoiceItems": [
+        {
+            "itemId": "3cabfc91-0f51-44c4-86d0-67ec8294ce0f",
+            "quantity": 5
+        },
+        {
+            "itemId": "aa73bbd4-c3f7-405d-8cb6-03d17fb6b3fd",
+            "quantity": 5
+        }
+    ]
+}

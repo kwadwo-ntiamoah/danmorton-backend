@@ -1,0 +1,6 @@
+@host=http://localhost:5159
+
+GET {{host}}/api/catalog/items
+Content-Type: application/json
+
+{}
